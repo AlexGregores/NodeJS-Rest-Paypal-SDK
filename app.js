@@ -3,7 +3,7 @@ const ejs= require('ejs');
 const paypal = require('paypal-rest-sdk');
 const res = require('express/lib/response');
 const req = require('express/lib/request');
-process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
+
 
 paypal.configure({
     'mode': 'sandbox', //sandbox or live
